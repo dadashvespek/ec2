@@ -7,7 +7,7 @@ import re
 import asyncpg  # Import the asyncpg library
 import pymysql
 # Initialize the OpenAI client
-openai.api_key = "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"
+openai.api_key = "api key"
 import pandas as pd
 # First, install SQLAlchemy if you don't already have it:
 # !pip install sqlalchemy
@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 
 # Create a bot instance and a dispatcher instance
-bot = Bot(token="6264813204:AAHLQrfz3IZfiD7ZAdol83BKgBO1U3LsRRY")
+bot = Bot(token="api key")
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
